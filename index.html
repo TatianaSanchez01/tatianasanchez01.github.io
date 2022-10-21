@@ -5,72 +5,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terrarium</title>
+    <title>Portfolio</title>
 
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+    <!-- Custom Script -->
+    <script src="script.js"></script>
 </head>
 
 <body>
-    <h1>My Terrarium</h1>
-    <div id="page">
-        <div id="left-container" class="container">
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant1" src="./images/plant1.png" />
-            </div>
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant2" src="./images/plant2.png" />
-            </div>
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant3" src="./images/plant3.png" />
-            </div>
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant4" src="./images/plant4.png" />
-            </div>
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant5" src="./images/plant5.png" />
-            </div>
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant6" src="./images/plant6.png" />
-            </div>
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant7" src="./images/plant7.png" />
-            </div>
-        </div>
-        <div id="right-container" class="container">
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant8" src="./images/plant8.png" />
-            </div>
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant9" src="./images/plant9.png" />
-            </div>
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant10" src="./images/plant10.png" />
-            </div>
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant11" src="./images/plant11.png" />
-            </div>
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant12" src="./images/plant12.png" />
-            </div>
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant13" src="./images/plant13.png" />
-            </div>
-            <div class="plant-holder">
-                <img class="plant" alt="plant" id="plant14" src="./images/plant14.png" />
-            </div>
-        </div>
-        <div id="terrarium">
-            <div class="jar-top"></div>
-            <div class="jar-walls">
-                <div class="jar-glossy-short"></div>
-                <div class="jar-glossy-long"></div>
 
-            </div>
-            <div class="dirt"></div>
-            <div class="jar-bottom"></div>
-        </div>
-    </div>
+    <header class="neutral-theme">
+        <h1>Hello! My name is <span>Tatiana</span>.<br>I'm a developer.</h1>
+        <a href="#about" class="header-link button">Find out more</a>
+    </header>
 
+    <main>
+        <section class="about primary-theme" id="about">
+            <h2>About me</h2>
+            <div class="about-container">
+                <img src="img/profile.jpg" alt="A photograph of Tatiana." class="about-img">
+                <div class="about-text">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod mollitia doloribus eveniet
+                        excepturi,
+                        aut vero consequuntur ducimus dicta quibusdam molestiae corrupti ipsum deleniti odit libero, ut
+                        neque ipsam!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, deserunt eligendi! Sint,
+                        maiores?
+                        Fugit culpa iusto dolore perferendis ipsa, impedit nobis odio blanditiis.</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus, quasi!</p>
+                    <a href="www.resume.com" class="button">My Resume</a>
+                </div>
+            </div>
+            <blockquote>"A fantastic quote about me"
+                <cite>-the person who said it</cite>
+            </blockquote>
+        </section>
+
+        <section class="neutral-theme">
+            <h2>Projects</h2>
+            <article class="card">
+                <div class="article-text">
+                    <h3>Project Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, maxime! Voluptate officiis illum
+                        et sequi nihil vero dolorum corrupti at.</p>
+                    <div>
+                        <a href="#" class="button">To Github </a>
+                        <a href="#" class="button">Open Live</a>
+                    </div>
+                </div>
+                <img src="img/project.jpg" alt="project image" class="article-img">
+            </article>
+            <article class="card">
+                <div class="article-text">
+                    <h3>Project Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, maxime! Voluptate officiis
+                        illum
+                        et sequi nihil vero dolorum corrupti at.</p>
+                    <div>
+                        <a href="#" class="button">To Github </a>
+                        <a href="#" class="button">Open Live</a>
+                    </div>
+                </div>
+                <img src="img/project.jpg" alt="project image" class="article-img">
+            </article>
+            <article class="card">
+                <div class="article-text">
+                    <h3>Project Title</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, maxime! Voluptate officiis illum
+                        et sequi nihil vero dolorum corrupti at.</p>
+                    <div>
+                        <a href="#" class="button">See it live</a>
+                        <a href="#" class="button">Fork it on Github</a>
+                    </div>
+                </div>
+                <img src="img/project.jpg" alt="project image" class="article-img">
+            </article>
+        </section>
+
+        <section class="contact primary-theme">
+            <h2>Contact</h2>
+            <p>If you'd like to work with me, you can drop me a message!</p>
+            <a href="mailto:email@example.com" class="button">Let's Talk</a>
+        </section>
+    </main>
+
+    <footer>
+        <ul class="social">
+            <li class="social-item">
+                <a href="https://www.linkedin.com/in/tatiana-sanchez-sanin/" class="social-link linkedin">LinkedIn</a>
+            </li>
+            <li class="social-item">
+                <a href="https://github.com/TatianaSanchez01" class="social-link github">Github</a>
+            </li>
+        </ul>
+        <p>&copy; 2022 - Portfolio design by Tatiana</p>
+    </footer>
 </body>
 
 </html>
